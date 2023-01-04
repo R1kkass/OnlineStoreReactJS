@@ -1,0 +1,98 @@
+.conteiner{
+    display: block;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+}
+
+.slider{
+    display: flex;
+    height: 400px;
+}
+
+.btn{
+    display: flex;
+    height: 50px;
+    margin-top: -400px;
+    z-index: 20;
+    position: absolute;
+}
+
+.btnR{
+    display: flex;
+    height: 400px;
+    z-index: 20;
+    width: 50px;
+    margin-top: -400px;
+    margin-left: 350px;
+    opacity: 0;
+    background-color: gray;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn{
+    display: flex;
+    height: 400px;
+    z-index: 20;
+    width: 50px;
+    margin-top: -400px;
+    opacity: 0;
+    background-color: gray;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    opacity: 0.6;
+}
+
+.btnR:hover{
+    opacity: 0.6;
+}
+
+.btnRHome:hover{
+    opacity: 0.6;
+}
+
+.img{
+    width: 400px;
+    height: 400px;
+    z-index: -20;
+}
+
+.imgBlock:hover{
+    opacity: 0.6;
+}
+
+.imgBlock{
+    width: 60px;
+    height: 60px;
+    display: block;
+    transition: 0.3s;
+}
+
+
+.conteinerHome{
+    width: 1024px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0px;
+}
+
+.btnRHome{
+    display: flex;
+    height: 400px;
+    z-index: 20;
+    width: 50px;
+    margin-top: -400px;
+    margin-left: 976px;
+    opacity: 0;
+    background-color: gray;
+    border: none;
+    transition: 0.3s;
+}
+
+.card{
+    width: 500px;
+}

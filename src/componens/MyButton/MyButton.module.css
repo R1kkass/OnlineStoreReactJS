@@ -1,0 +1,53 @@
+
+    .button:hover{
+        border: none;
+        height: 40px;
+        width: 100px;
+        background-color: rgb(33, 240, 33);
+        color: white;
+        font-size: 18px;
+        border-radius: 5px;
+    }
+    
+    .button{
+        border: none;
+        height: 40px;
+        width: 100px;
+        background-color: white;
+        border: solid 1px rgb(33, 240, 33);
+        color: rgb(33, 240, 33);
+        margin-left: auto;
+        margin-right: auto;
+        cursor: pointer;
+        font-size: 18px;
+        border-radius: 5px;
+        margin-left: 5px;
+    }
+
+    .button:active{
+        box-shadow: 1px 1px 5px 1px rgb(33, 240, 33);
+    }
+
+    .red{
+        border: solid 1px red;
+        color: red;
+        margin-right: 0;
+    }
+
+    .red:active{
+        box-shadow: 1px 1px 5px 1px red;
+    }
+
+    .red:hover{
+        background: red;
+    }
+
+    .blue{
+        border: solid 1px blue;
+        color: blue;
+        margin-right: 0;
+    }
+
+    .blue:hover{
+        background: blue;
+    }

@@ -1,0 +1,54 @@
+.ratingArea {
+	overflow: hidden;
+	width: 100px;
+}
+.ratingArea:not(:checked) > input {
+	display: none;
+}
+.ratingArea:not(:checked) > label {
+	float: right;
+	width: 20px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+}
+.ratingArea:not(:checked) > label:before {
+	content: '★';
+    font-size: 20px;
+}
+.ratingArea > input:checked ~ label {
+	color: rgb(4, 248, 4);
+}
+.ratingArea:not(:checked) > label:hover,
+.ratingArea:not(:checked) > label:hover ~ label {
+	color: rgb(4, 248, 4);
+}
+.ratingArea > input:checked + label:hover,
+.ratingArea > input:checked + label:hover ~ label,
+.ratingArea > input:checked ~ label:hover,
+.ratingArea > input:checked ~ label:hover ~ label,
+.ratingArea > label:hover ~ input:checked ~ label {
+	color: rgb(4, 248, 4);
+}
+.rateArea > label:active {
+	position: relative;
+}
+
+.ratingResult {
+	width: 265px;
+}
+.ratingResult span {
+	padding: 0;
+	font-size: 22px;
+	margin: 0 3px;
+	line-height: 1;
+	color: lightgrey;
+}
+.ratingResult > span:before {
+	content: '★';
+}
+.ratingResult > span.active {
+	color: rgb(4, 248, 4);
+}

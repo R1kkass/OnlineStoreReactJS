@@ -1,0 +1,16 @@
+.myVision {
+
+    display: none;
+    transition: 0.3s all ease;
+    }
+    
+    .myVision.active {
+    display: flex;
+    transition: 0.3s all ease;
+    padding: 25px;
+    background: white;
+    border-radius: 5px;
+    min-width: 50%;
+    border: solid 2px teal;
+    
+    }

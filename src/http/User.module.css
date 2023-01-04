@@ -1,0 +1,92 @@
+.inp{
+    border: solid 1px green;
+    width: 100%;
+    height: 25px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s all ease;
+    margin-left:auto;
+    margin-right: auto;
+    outline: none;
+    padding-left: 5px;
+}
+
+.inp:hover{
+    border-radius: 5px;
+}
+
+.Link{
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    justify-content: center;
+    transition: 0.3s all ease;
+}
+
+
+.Link:hover{
+    color: green;
+}
+
+.btn{
+    width: 150px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    background-color: green;
+    color: white;
+    margin-left: auto;
+    border-radius: 5px;
+    border: 1px solid green;
+    transition: 00.3s all ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: rgb(0, 190, 25);
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 150px);
+}
+
+.windowsLogin{
+    border: green solid 2px;
+    border-radius: 20px;
+    background-color: rgb(8, 252, 8);
+    height: 400px;
+    width: 50%;
+    
+}
+
+.window h1{
+    color: white;
+    text-align: center
+}
+
+.window{
+    margin: auto;
+    width: 50%;
+    margin-top: 100px;
+    height: 50%;
+}
+
+.select{
+    height: 45px;
+    box-shadow: 0px 0px 5px 0px;
+    font-size: 18px;
+    padding: 10px;
+    border:1px solid rgb(8, 252, 8);
+    border-radius: 5px;
+    margin-top: 20px;
+
+}

@@ -1,0 +1,279 @@
+@media (min-width: 1px) {
+    .filter{
+        width: 300px;
+        height: 500px;
+        border: solid rgb(4, 248, 4);
+        border-radius: 20px;
+        margin-right: 50px;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+        font-size: 20px;
+        padding: 10px;
+    }
+    
+    
+
+    .device{
+        justify-content: center;
+        display: flex;
+        padding-top: 70px;
+    }
+
+    .content{
+        
+        width: 60%;
+    }
+    
+    .deviceAll{
+        display: flex;
+        grid-template-columns: 3;
+        border: 2px rgb(4, 248, 4) solid;
+        justify-content: center;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        font-size: 24px;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+    }
+    
+    .Link:hover{
+        color:rgb(4, 248, 4);
+        opacity: 1;
+    }
+    
+    .img{
+        width: 400px;
+        height: 350px;   
+        
+    }
+    
+    .deviceInfo{
+        width: 80%;
+        min-width: 800px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        
+        display: flex;
+        font-size: 24px;
+        box-shadow: 1px 1px 2px 1px rgb(0 0 0 / 16%);
+        padding: 10px;
+        border: solid 1px rgb(4, 248, 4);
+    }
+    
+    .Link{
+        display: flex;
+        width: 100%;
+        color: black;
+        height: 100%;
+        text-decoration: none;
+        transition: 0.3s all ease;
+        justify-content: space-between;
+    }
+
+    .Link img{
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .Link:nth-child(0){
+        display: flex;
+        align-items: center;
+    }
+
+    .Link:nth-child(1){
+        display: flex;
+        align-items: center;
+    }
+    
+    .modal{
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .modal input{
+        width: 100%;
+    }
+    
+    .pagination{
+        width: 30px;
+        height: 40px;
+        font-weight: 500;
+        font-size: 18px;
+        color: green;
+        border: solid 1px rgb(4, 248, 4);
+        box-shadow: 0px 0px 5px 0px rgb(4, 248, 4);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        margin-bottom: 20px;
+        margin-right: 7px;
+        transition: 0.3s all ease;
+        
+    }
+    
+    .pagination:hover{
+        color: white;
+        background-color: rgb(11, 255, 11);
+    }
+    
+    .pag{
+        display: flex;
+        
+    }
+    
+    .btns{
+        display: block;
+        justify-content: center;
+    }
+    
+    .btns button{
+        cursor: pointer;
+        border: none;
+        background: white;
+        font-size: 1.3rem;
+        width: 300px;
+        text-align: start;
+        border-radius: 20px;
+        height: 40px;
+    }
+
+    .btns button:hover{
+        color:rgb(4, 248, 4)
+    }
+    
+    .btns div{
+        width: 300px;
+        border: solid 1px rgb(4, 248, 4);
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: -10px;
+        box-shadow: 1px 1px 2px 1px rgb(0 0 0 / 16%);
+    }
+    
+    .main{
+        display: flex;
+        justify-content: start;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+    }
+    
+    .inf{
+        width: calc(100% );
+        
+        display: block;
+        justify-content: center;
+    }
+    
+    .inf button{
+        cursor: pointer;
+        background: white;
+        width: 150px;
+    }
+
+    .inf button:hover{
+        width: 150px;
+    }
+    
+    .inf__div{
+        height: 100%;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10px;
+        box-shadow: 1px 1px 2px 1px rgb(0 0 0 / 16%);
+        border: solid 1px rgb(4, 248, 4);
+    }
+    
+    .table{
+        display: grid;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 16px;
+        align-items: center;
+    }
+     
+    .inf__p{
+        border-bottom: 1px dashed black;
+    }
+
+
+}
+
+.feedback{
+    box-shadow: 1px 1px 2px 1px rgb(0 0 0 / 16%);
+    border: solid 1px rgb(4, 248, 4);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 80%;
+    margin-left: auto;
+    padding: 20px;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+/* Рейтинг */
+.ratingArea {
+	overflow: hidden;
+	width: 100px;
+}
+.ratingArea:not(:checked) > input {
+	display: none;
+}
+.ratingArea:not(:checked) > label {
+	float: right;
+	width: 20px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+}
+.ratingArea:not(:checked) > label:before {
+	content: '★';
+    font-size: 20px;
+}
+.ratingArea > input:checked ~ label {
+	color: rgb(4, 248, 4);
+}
+.ratingArea:not(:checked) > label:hover,
+.ratingArea:not(:checked) > label:hover ~ label {
+	color: rgb(4, 248, 4);
+}
+.ratingArea > input:checked + label:hover,
+.ratingArea > input:checked + label:hover ~ label,
+.ratingArea > input:checked ~ label:hover,
+.ratingArea > input:checked ~ label:hover ~ label,
+.ratingArea > label:hover ~ input:checked ~ label {
+	color: rgb(4, 248, 4);
+}
+.rateArea > label:active {
+	position: relative;
+}
+
+textarea{
+    resize: none;
+    border: solid 1px rgb(4, 248, 4);
+    border-radius: 5px;
+    width: 70%;
+    height: 100px;
+    margin-top: 20px;
+    padding: 10px;
+}
+textarea:focus{
+    outline: none;
+    box-shadow: 0 0 5px 0 rgb(4, 248, 4);
+
+}
+
+
+

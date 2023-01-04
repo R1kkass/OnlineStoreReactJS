@@ -1,0 +1,9 @@
+.myInput{
+    width: 30%;
+    height: 28px;
+    border: 2px green solid;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    background-color: rgb(201, 243, 201);
+}

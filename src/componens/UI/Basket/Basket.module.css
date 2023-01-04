@@ -1,0 +1,163 @@
+.basketMain{
+    display: grid;
+    grid-template-columns: 3fr 300px;
+    width: 80%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+}
+
+.basketMain__inf{
+    display: grid;
+    grid-template-rows: 0fr 0fr;
+}
+
+.basketMain__inf_div{
+    position: fixed;
+    padding: 10px;
+    justify-content: center;
+    height: 180px;
+    width: 300px;
+    border: solid 1px rgb(4, 248, 4);
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 1px gray;
+    justify-content: center;
+}
+
+.basketMain__inf div button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.basketMain__devices{
+    width: 90%;
+    border-radius: 10px;
+    height: 140px;
+    border: solid 1px rgb(4, 248, 4);
+    box-shadow: 1px 1px 5px 1px gray;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 10px ;
+    font-size: 20px;
+    font-weight: 300;
+    justify-content: space-around;
+}
+
+.basketMain__inf p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.basketMain__message{
+    margin-left: 20px;
+}
+
+.counter__button:hover{
+    border: none;
+    background-color: rgb(33, 240, 33);
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.counter__button{
+    border: none;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border: solid 1px rgb(33, 240, 33);
+    color: rgb(33, 240, 33);
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.counter__button:active{
+    box-shadow: 1px 1px 5px 1px rgb(33, 240, 33);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.basketMain a:hover{
+    color: rgb(4, 248, 4);
+}
+
+.inp{
+    width: 300px;
+    height: 40px;
+    border: solid 1px rgb(2,244,2);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    transition: 0.3s;
+    color: black;
+}
+
+.inp:hover{
+    width: 300px;
+    height: 40px;
+    border: solid 1px rgb(2,244,2);
+    box-shadow: 0px 0px 10px 0px rgb(2,244,2);
+}
+
+.windowsLogin{
+    border: solid 1px rgb(2,244,2);
+    color: black;
+    height: 500px;
+    width: 600px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, rgb(4,244,4), green);
+    display: grid;
+    align-items: center;
+}
+
+.window{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.inp:focus{
+    outline: none;
+    box-shadow: 0px 0px 10px 0px rgb(2,244,2);
+}
+
+.btn{
+    width: 100%;
+    background: white;
+    color: green;
+    font-size: 20px;
+    text-align: center;
+    height: 50px;
+    border: solid 1px rgb(2,244,2);
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: green;
+    border: solid 1px green;
+    color: white;
+    box-shadow: 0px 0px 20px 0px green;
+}
+
+.spn{
+    padding-left: 10px;
+    padding-right: 0px;
+}
